@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/jquery-justified-gallery-rails.svg)](https://badge.fury.io/rb/jquery-justified-gallery-rails)
+
 # jquery-justified-gallery-rails
 A gem to automate using jQuery Justified Gallery with Rails
 
