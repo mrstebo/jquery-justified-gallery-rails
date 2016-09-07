@@ -1,9 +1,6 @@
 # jquery-justified-gallery-rails
 A gem to automate using jQuery Justified Gallery with Rails
 
-## Usage
-How to use my plugin.
-
 ## Installation
 Add this line to your application's Gemfile:
 
@@ -16,13 +13,19 @@ And then execute:
 $ bundle
 ```
 
-Or install it yourself as:
-```bash
-$ gem install jquery-justified-gallery-rails
+## CSS
+Add the following to `application.css`
+
+```css
+*= require justifiedGallery
 ```
 
-## Contributing
-Contribution directions go here.
+## Javascripts
+Add the folowing to `application.js`
+
+```js
+//= require jquery.justifiedGallery
+```
 
 ## License
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
